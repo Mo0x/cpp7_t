@@ -6,7 +6,7 @@
 /*   By: mgovinda <mgovinda@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/24 14:05:09 by phuture           #+#    #+#             */
-/*   Updated: 2025/01/24 15:47:15 by mgovinda         ###   ########.fr       */
+/*   Updated: 2025/01/24 15:48:57 by mgovinda         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,6 @@ int main(void)
 	Array<std::string> strings(2);
 	strings[1] = "lol";
 	std::cout << strings[1] << std::endl;
-    return (0);
 	{
 		Array<int> numbers(MAX_VAL);
     int* mirror = new int[MAX_VAL];
