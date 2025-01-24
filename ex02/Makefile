@@ -1,7 +1,6 @@
-NAME = ./iter
+NAME = ./array
 CXX = c++
-SRCS =	./main.cpp \
-		./Array.cpp
+SRCS =	./main.cpp
 
 OBJS = $(patsubst %.cpp, %.o, $(SRCS))
 INCDIRS = ./includes
