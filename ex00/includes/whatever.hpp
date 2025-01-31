@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   whatever.hpp                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: phuture <phuture@student.42.fr>            +#+  +:+       +#+        */
+/*   By: mgovinda <mgovinda@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/24 12:43:02 by phuture           #+#    #+#             */
-/*   Updated: 2025/01/24 12:53:39 by phuture          ###   ########.fr       */
+/*   Updated: 2025/01/31 13:45:30 by mgovinda         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 #define WHATEVER_HPP
 
 template <typename T>
-void swap(T x, T y)
+void swap(T &x, T &y)
 {
     T tmp;
     tmp = y;
